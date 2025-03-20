@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   description: "Detalle del post segun su id",
 };
 
-// Desempacamos `params` antes de pasarlo al componente de cliente
 export default function PostPage({ params }: { params: Promise<Params> }) {
   const { id } = use(params);
   return  <PostPageClient postId={id}/> ;

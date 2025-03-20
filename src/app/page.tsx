@@ -10,7 +10,7 @@ async function getPosts() {
   return allPosts.slice(0, 12);
 }
 export const metadata: Metadata = {
-  title: 'Posts ',
+  title: 'Inicio-Posts ',
   description: 'Acá podrás un vistazo a algunos de los post',
 };
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function PostsPage() {
   return (
     <div className="max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6 text-slate-900"> Posts </h1>
+      <h1 className="text-3xl font-bold mb-6 text-slate-200"> Posts </h1>
       <UserFilter />
       <PostsList />
     </div>
