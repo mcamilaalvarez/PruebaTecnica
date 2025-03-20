@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Prueba Técnica
 
-## Getting Started
+## Descripción
 
-First, run the development server:
+Este es un proyecto desarrollado con Next.js como parte de una prueba técnica. Está diseñado para demostrar el uso de SSR (Server Side Rendering) y CSR (Client Side Rendering).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologías Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Vercel (para despliegue)
+* Git & GitHub
+* Redux
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Instalación y Configuración
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerrequisitos
 
-## Learn More
+* Tener Node.js instalado, con la versión 22.14.0 .
+* Tener npm o yarn instalado.
 
-To learn more about Next.js, take a look at the following resources:
+### Pasos para ejecutar el proyecto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  Clonar el repositorio:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```bash
+    git clone https://github.com/mcamilaalvarez/PruebaTecnica.git
+    cd PruebaTecnica
+    ```
 
-## Deploy on Vercel
+2.  Instalar las dependencias:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    # o con yarn
+    yarn install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3.  Ejecutar el proyecto en desarrollo:
+
+    ```bash
+    npm run dev
+    # o con yarn
+    yarn dev
+    ```
+
+4.  Abrir en el navegador (http://localhost:3000)
+
+## Despliegue
+
+El proyecto está desplegado en Vercel y puedes verlo aquí:
+
+ [Prueba Técnica - Vercel] https://prueba-tecnica-mcamilaalvarezs-projects.vercel.app/
+
+## Funcionalidades
+
+* Renderizado SSR y CSR
+* Diseño responsivo con Tailwind CSS
+* Navegación optimizada con Next.js
+* Consumo del api JSONPlaceHolder
+
+
+## Autor
+
+‍ Maria Camila Alvarez
+ 
