@@ -22,7 +22,7 @@ export default async function Home() {
 
   return (
     <div className=" mx-auto text-center">
-      <h1 className="text-4xl font-bold mb-6 text-slate-900">Bienvenido</h1>
+      <h1 className="text-4xl font-bold mb-6 text-gray-200">Bienvenido</h1>
     
       <div className="grid grid-flow-col  gap-4">
         <PostGrid posts={posts}></PostGrid>

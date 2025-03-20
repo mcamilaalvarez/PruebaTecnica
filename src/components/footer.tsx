@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-gray-500 text-white text-center py-6 mt-2">
+        <footer className="bg-gray-800 text-white text-center py-6 mt-2">
         <div className="container mx-auto">
           <p className="text-lg font-semibold">&copy; {new Date().getFullYear()} EL EMPLEO.</p>
   
